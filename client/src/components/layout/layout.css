@@ -1,0 +1,38 @@
+#navbar-panel {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.alert-parent-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.alert-container {
+    margin: auto;
+    max-width: 600px;
+    padding-top: 24px;
+}
+
+.loading-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.loader-container {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+
+.loader img {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
